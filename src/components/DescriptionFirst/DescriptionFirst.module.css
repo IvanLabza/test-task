@@ -1,0 +1,124 @@
+.title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.subTitle {
+  color: rgb(80, 61, 196);
+  font-family: Bebas Neue;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  display: flex;
+  gap: 14px;
+  text-transform: uppercase;
+}
+.subTitle img {
+  height: 30px;
+}
+.textCont {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.textCont:first-child::before {
+  content: "";
+  width: 10px;
+  height: 7px;
+  display: block;
+  background: rgb(80, 61, 196);
+  border-radius: 50%;
+}
+.textSubCont {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+.textSubCont span {
+  color: rgb(80, 61, 196);
+}
+
+.wraps {
+  display: flex;
+  flex-direction: column;
+  max-width: 328px;
+}
+
+.DescriptionFirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textWrap {
+  padding: 25px 67px;
+  background: rgb(39, 39, 39);
+}
+
+.wrapper {
+  max-width: 603px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container::before {
+  content: url(../../assets/alex.png);
+  position: absolute;
+  bottom: -16px;
+  right: -8px;
+  z-index: -1;
+}
+
+.container {
+  background: rgb(39, 39, 39);
+  padding: 20px 0;
+  padding-left: 63px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  z-index: 999;
+  padding-right: 20px;
+}
+.container::after {
+  content: "";
+  display: block;
+  filter: blur(200px);
+  background: rgba(80, 61, 196, 0.3);
+  position: absolute;
+  width: 359px;
+  height: 400px;
+  top: 0;
+  right: -158px;
+}
+
+.descImg {
+  position: absolute;
+  bottom: -16px;
+  right: -8px;
+}
+
+@media screen and (max-width: 536px) {
+  .title {
+    font-size: 14px;
+  }
+}

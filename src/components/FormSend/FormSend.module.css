@@ -1,0 +1,102 @@
+.massage {
+  width: 100%;
+  resize: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -1.5%;
+  padding-top: 20px;
+  padding-left: 20px;
+  background: rgba(170, 170, 170, 0.1);
+  border: transparent;
+  outline: transparent;
+  height: 118px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.massage::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -1.5%;
+}
+
+.label {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+  width: 100%;
+}
+
+.label div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.label span {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.userInfo span {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+  margin-bottom: 15px;
+  display: block;
+}
+.socialIcons {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 33.37px;
+}
+.userName {
+  padding: 15px 0 15px 20px;
+  width: 100%;
+  background: rgba(170, 170, 170, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -1%;
+  border: transparent;
+  outline: transparent;
+}
+
+.userName::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -1%;
+}
+.btn {
+  display: block;
+  padding: 14px 0;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -1.5%;
+  background: rgb(80, 61, 196);
+  border: transparent;
+  outline: transparent;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

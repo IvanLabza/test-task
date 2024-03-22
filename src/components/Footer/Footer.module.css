@@ -1,0 +1,101 @@
+.FooterContainer {
+  background: rgb(14, 14, 14);
+  margin: 0 auto;
+  padding: 55px 0;
+  max-width: 1920px;
+}
+.Footer {
+  max-width: 1518px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  flex-wrap: wrap;
+}
+
+.SupportServiceTitle {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 30px;
+  display: block;
+}
+.SupportServiceContent {
+  display: flex;
+  gap: 57px;
+  align-items: flex-end;
+}
+.TelegramLink {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  align-items: center;
+  gap: 20px;
+}
+.TelegramIcon {
+}
+.TelegramText {
+}
+.EmailInfo {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  gap: 14px;
+}
+.EmailIcon {
+  width: 16.67px;
+  height: 13.33px;
+}
+.FooterInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 47px;
+}
+.DistanceContract {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.Copyright {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .SupportService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Footer {
+    justify-content: center;
+    gap: 30px;
+  }
+  .FooterInfo {
+    align-items: center;
+  }
+  .Copyright {
+    text-align: center;
+  }
+  .SupportServiceContent{
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+}

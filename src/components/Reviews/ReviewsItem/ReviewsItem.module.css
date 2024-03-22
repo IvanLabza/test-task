@@ -1,0 +1,84 @@
+.ReviewsItemContainer {
+  display: flex;
+  gap: 10px;
+}
+.ImgContainer {
+}
+.UserImage {
+}
+.TextContentContainer {
+}
+.UserDetails {
+}
+.UserName {
+  margin-bottom: 8px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -1.5%;
+}
+.TimeAgo {
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -1%;
+}
+.UserMessage {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+}
+.FeedbackContainer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 420px;
+  margin-top: 18px;
+}
+.FeedbackButton {
+  display: flex;
+  background: transparent;
+  border: transparent;
+  outline: transparent;
+  gap: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -1%;
+}
+.FeedbackImage {
+}
+.FeeContainer {
+  display: flex;
+  align-items: baseline;
+
+  gap: 15px;
+}
+.FeeImage {
+}
+
+.FeeContainer span {
+  display: flex;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -1%;
+}
+
+.commentList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

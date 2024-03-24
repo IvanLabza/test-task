@@ -6,14 +6,14 @@ import AddBtn from "../AddBtn/AddBtn";
 const DescriptionFirst = () => {
   return (
     <div>
+      <h1 className={css.title}>
+        Как находить и использовать скрытые возможности в бизнесе?
+      </h1>
       <a
         href="https://alexyanovsky.com/udvoenie_pribyli?utm_source=trafik_web"
         className={css.DescriptionFirst}
         target="_blank"
       >
-        <h1 className={css.title}>
-          Как находить и использовать скрытые возможности в бизнесе?
-        </h1>
         <div className={css.container}>
           <div className={css.wrapper}>
             <Banner />
